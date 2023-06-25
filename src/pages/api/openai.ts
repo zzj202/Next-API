@@ -46,6 +46,9 @@ export default async function handler(
                 contentType,
             );
             console.log(res)
+        },
+        onmessage(msg) {
+            console.log(msg)
         }
     })
 }
